@@ -3,6 +3,7 @@ import { zhConfig } from "./zh";
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
+  base: "/ballance-mapping-manual/",
   rewrites: {
     "zh/:rest*": ":rest*" // set zh as default
   },
