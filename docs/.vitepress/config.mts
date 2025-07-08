@@ -4,6 +4,7 @@ import { zhConfig } from "./zh";
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   base: "/ballance-mapping-manual/",
+  head: [["link", { rel: "icon", href: "/ballance-mapping-manual/logo.png" }]],
   rewrites: {
     "zh/:rest*": ":rest*" // set zh as default
   },
