@@ -5,11 +5,6 @@ import type { DefaultTheme, LocaleSpecificConfig } from "vitepress";
 export const zhConfig: LocaleSpecificConfig<DefaultTheme.Config> = {
   title: "Ballance 制图手册",
   themeConfig: {
-    // search: {
-    //   provider: "local",
-    //   
-    //   }
-    // },
     notFound: {
       linkLabel: "返回首页",
       linkText: "返回首页",

@@ -25,6 +25,7 @@ export default defineConfig({
     image: { lazyLoading: true }
   },
   themeConfig: {
+    logo: "/logo.png",
     socialLinks: [{ icon: "github", link: "https://github.com/ghomist/ballance-mapping-manual" }],
     search: {
       provider: "local",
