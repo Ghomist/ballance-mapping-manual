@@ -13,7 +13,7 @@
 
 ### Max 对齐工具
 
-BallanceBlenderPlugin 提供了一套对齐工具，位于3D视图的 `Ballance` - `3ds Max Align`。该工具与 3ds Max 中的对齐工具相似。具体用法见BBP的[传统对齐文档](https://yyc12345.github.io/BallanceBlenderHelper/zh-cn/legacy-align/)。
+BallanceBlenderPlugin 提供了一套对齐工具，位于3D视图的 `Ballance` - `3ds Max Align`。该工具与 3ds Max 中的对齐工具相似。具体用法见BBP的 [传统对齐文档](https://yyc12345.github.io/BallanceBlenderHelper/zh-cn/legacy-align/)。
 
 除了传统对齐方式，我们强烈推荐使用 Blender 中的吸附功能。具体请查看 [吸附功能详解](../blender/snapping)。
 
