@@ -3,7 +3,7 @@
 NMO 文件是 Ballance 地图文件的格式。它是一种专用于 Virtools 的文件格式，用于存储关卡中的所有物体信息。
 
 ::: tip 提示
-如果你有其它游戏引擎的经验，例如 Unity，可以将 nmo 文件理解为 Unity 中的 scene 文件。
+如果你有其它游戏引擎的经验，例如 Unity，可以将 NMO 文件理解为 Unity 中的 scene 文件。
 :::
 
 ## 贴图文件的保存格式

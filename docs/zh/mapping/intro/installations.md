@@ -7,9 +7,9 @@
 
 这套工作流就是目前最舒服的 Ballance 制图流程，其优势在于：不涉及自制图内嵌脚本时，可以完全摆脱对 Virtools 的依赖。
 
-地图（也叫关卡）在文件系统中通常被保存为一个 nmo 文件。该文件类型原本只能借助专用工具 Virtools 打开及编辑，但 Virtools 过于古老，难以使用，且对模型不提供编辑能力，需要借助 Blender / 3ds Max 这样的工具建模后导入 Virtools 中，过程中又涉及到各类导入导出插件（max 导出 nmo 的插件仅支持非常古老的 max 版本），非常繁琐且兼容性较差。
+地图（也叫关卡）在文件系统中通常被保存为一个 NMO 文件。该文件类型原本只能借助专用工具 Virtools 打开及编辑，但 Virtools 过于古老，难以使用，且对模型不提供编辑能力，需要借助 Blender / 3ds Max 这样的工具建模后导入 Virtools 中，过程中又涉及到各类导入导出插件（max 导出 NMO 的插件仅支持非常古老的 max 版本），非常繁琐且兼容性较差。
 
-BallanceBlenderPlugin 则很好地解决了上述问题，提供了直接对 nmo 文件的读写能力，使 Blender 能够直接导入、导出 nmo 文件，摆脱了 Virtools 的限制，也摆脱了老旧 3ds Max 的限制，能够使用更现代化的 Blender 进行制图，大大提高了制图效率。
+BallanceBlenderPlugin 则很好地解决了上述问题，提供了直接对 NMO 文件的读写能力，使 Blender 能够直接导入、导出 NMO 文件，摆脱了 Virtools 的限制，也摆脱了老旧 3ds Max 的限制，能够使用更现代化的 Blender 进行制图，大大提高了制图效率。
 
 ## 资源下载提示
 

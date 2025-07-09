@@ -18,7 +18,7 @@ hero:
 
 features:
   - title: 摆脱 Virtools（几乎）
-    details: 使用 libcmo21 强力驱动，在 Blender 中直接读取、导出 nmo 文件，摆脱对 Virtools 的依赖！
+    details: 使用 libcmo21 强力驱动，在 Blender 中直接读取、导出 NMO 文件，摆脱对 Virtools 的依赖！
   - title: 制图快人一步
     details: 减少中间商（Virtools）赚差价，摆脱繁琐的导出、归组、上影子步骤，拼好模型直接一键出图！
   - title: 轻量且免费
