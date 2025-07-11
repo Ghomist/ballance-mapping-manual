@@ -46,5 +46,6 @@
 - 工欲善其事，必先利其器，制图的第一步一定是 [工具安装与配置](installations)。
 - 如果你对基本的地图构成有一定了解，但没有实操经验，可以尝试我们的 [渐进式教程](/tutorial/blender/your-first-map)，跟随教程一步一步做出你的第一张自制地图。
 - 如果你之前使用 3ds Max 制图，且正在从 3ds Max 迁移到 Blender，可以查看 [从 3ds Max 迁移](migrate-from-max)。
+- 如果你已经了解并掌握了基础制图（不论是 Blender 还是 3ds Max），想要尝试用脚本实现更多更惊艳的创意，可以查看 [脚本制图](../../scripting/basic/intro)。
 
 **祝好运！**

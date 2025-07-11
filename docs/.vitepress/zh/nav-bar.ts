@@ -2,7 +2,14 @@ import { DefaultTheme } from "vitepress";
 
 export const zhNav: DefaultTheme.NavItem[] = [
   { text: "首页", link: "/" },
-  { text: "制图手册", link: "/mapping/intro/introduction", activeMatch: "/mapping/" },
+  {
+    text: "制图手册",
+    activeMatch: "(/mapping/)|(/scripting/)",
+    items: [
+      { text: "传统制图", link: "/mapping/intro/introduction", activeMatch: "/mapping/" },
+      { text: "脚本制图", link: "/scripting/basic/intro", activeMatch: "/scripting/" }
+    ]
+  },
   { text: "渐进式教程", link: "/tutorial/blender/your-first-map", activeMatch: "/tutorial/" },
   {
     text: "参考资源",

@@ -45,6 +45,44 @@ export const zhSidebar: DefaultTheme.Sidebar = {
       ]
     }
   ],
+  "/scripting/": [
+    {
+      text: "脚本制图基础",
+      base: "/scripting/basic/",
+      collapsed: false,
+      items: [
+        { text: "概述", link: `intro` },
+        { text: "快速开始", link: `quick-start` },
+        { text: "脚本插入原理", link: `scripts-insertion` },
+        { text: "基础概念", link: `basic-concepts` },
+        { text: "基础操作", link: `basic-operations` },
+        { text: "调试脚本", link: `debugging` }
+      ]
+    },
+    {
+      text: "构建单元",
+      base: "/scripting/building-block/",
+      collapsed: false,
+      items: [
+        { text: "概述", link: `intro` },
+        { text: "Op", link: `op` },
+        { text: "流控制", link: `stream` },
+        { text: "物理系统", link: `physics` },
+        { text: "消息机制", link: `message` },
+        { text: "粒子系统", link: `particle` }
+      ]
+    },
+    {
+      text: "演示示例",
+      base: "/scripting/example/",
+      collapsed: false,
+      items: [
+        { text: "操控游戏数据", link: `modify-in-game-data` },
+        { text: "碰撞检测", link: `collide-detect` },
+        { text: "按键检测", link: `key-event` }
+      ]
+    }
+  ],
   "/tutorial/": [
     {
       text: "Blender 制图流程",
