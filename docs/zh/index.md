@@ -9,6 +9,9 @@ hero:
     - theme: brand
       text: 了解 Ballance 制图
       link: /mapping/intro/introduction
+    - theme: brand
+      text: 了解脚本制图
+      link: /scripting/basic/intro
     - theme: alt
       text: 工具安装与配置
       link: /mapping/intro/installations
