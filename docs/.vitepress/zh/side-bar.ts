@@ -64,7 +64,7 @@ export const zhSidebar: DefaultTheme.Sidebar = {
       base: "/scripting/building-block/",
       collapsed: false,
       items: [
-        { text: "概述", link: `intro` },
+        { text: "构建单元概述", link: `intro` },
         { text: "Op", link: `op` },
         { text: "流控制", link: `stream` },
         { text: "物理系统", link: `physics` },
