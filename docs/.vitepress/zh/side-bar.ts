@@ -65,7 +65,7 @@ export const zhSidebar: DefaultTheme.Sidebar = {
       collapsed: false,
       items: [
         { text: "构建单元概述", link: `intro` },
-        { text: "Op", link: `op` },
+        { text: "OP", link: `op` },
         { text: "流控制", link: `stream` },
         { text: "物理系统", link: `physics` },
         { text: "消息机制", link: `message` },
