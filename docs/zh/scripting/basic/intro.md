@@ -23,7 +23,7 @@
 下面列出了自脚本图出现以来，以 **脚本创造玩法** 为核心的自制地图：
 
 - Queen Ball
-- 迷雾
+- 谜雾
 - 小小的旅途
 - All We Know
 - 镜花水月
@@ -34,7 +34,7 @@
 :::
 
 ::: tip 参考资料
-除了参考其他人的制图作品外，也可以参考 **《Textbook of Creating Scripts in Maps of Ballance》**，这是一本由 **9826HZg** 主编，**Chris Xiong、GE ColdStar、hhmmdd123、Ballancebug、yyc12345** 等大佬合作撰写的一篇脚本制图教程。本手册在撰写时也借鉴参考了此书。
+除了参考其他人的制图作品外，也可以参考 **《Textbook of Creating Scripts in Maps of Ballance》**，这是一本由 **9826HZg** 主编，**Chris Xiong、GE ColdStar、hhmmdd123、BallanceBug、yyc12345** 等大佬合作撰写的一篇脚本制图教程。本手册在撰写时也借鉴参考了此书。
 :::
 
 ## 开始学习
