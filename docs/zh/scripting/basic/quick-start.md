@@ -72,6 +72,8 @@ Ballance 默认的物理模拟速率就是 2，可以理解成游戏的物理引
 **使用 `Save as` 保存的 nmo 文件会丢失 IC 信息。**
 
 虽然在本节教程中没有使用到 IC，但如果你在编写脚本时，为某些物体指定了 IC，请直接将项目保存为 cmo（按下 `Ctrl + S` 或菜单栏选择 `File - Save Composition` 均可），然后手动更改后缀为 nmo，再导入游戏游玩。
+
+具体解释详见 [IC 机制](basic-concepts#initial-conditions)。
 :::
 
 ## 进一步学习
