@@ -68,6 +68,17 @@ Blender 的配置与制图关系不大，但为了配合制图，我们推荐将
 
 下载好插件后需要依次按照 [安装文档](https://yyc12345.github.io/BallanceBlenderHelper/zh-cn/install-plugin/) 与 [配置文档](https://yyc12345.github.io/BallanceBlenderHelper/zh-cn/configure-plugin/) 进行安装配置。
 
+配置好后检查插件是否可以正常使用：
+
+- 打开 3D 视图左上方的 `添加` 菜单（或按下 `Shift + A` 快捷键）应当看到 `Ballance - 路面/钢轨/机关` 等选项，并且所有的物体都可以添加，而不是灰色。
+- Blender 菜单的 `文件 - 导入/导出` 中应当有 `Virtools 文件(.nmo/.cmo/.vmo)` 选项，并且不是灰色。
+
+::: warning 注意
+如果上面提到的选项是灰色，请检查是否正确 [配置材质文件夹（External Texture Folder）](https://yyc12345.github.io/BallanceBlenderHelper/zh-cn/configure-plugin/#_3)。
+:::
+
+配置完毕后，强烈建议将 Blender 关闭重启一次，以正确重载插件，防止出现未知错误。
+
 ## 制图资产库
 
 资产库是一个后缀为 `blend` 的文件，其中包含了制图常用的固定物体及其资源，如：盘点路面、风扇底座、各种木板、灯柱装饰等。同时，该资产库也包含了对应的贴图信息以及归组信息，可以直接拖放使用，无需额外配置。
