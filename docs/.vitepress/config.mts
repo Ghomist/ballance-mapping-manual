@@ -1,5 +1,6 @@
 import { defineConfig } from "vitepress";
 import { zhConfig } from "./zh";
+import { enConfig } from "./en";
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
@@ -13,13 +14,13 @@ export default defineConfig({
       label: "简体中文",
       lang: "zh-CN",
       ...zhConfig
+    },
+    en: {
+      label: "English",
+      lang: "en",
+      link: "/en/",
+      ...enConfig
     }
-    // en: {
-    //   label: "English",
-    //   lang: "en",
-    //   link: "/en/"
-    //   // ...enConfig
-    // }
   },
   markdown: {
     image: { lazyLoading: true }
@@ -43,6 +44,22 @@ export default defineConfig({
                 footer: {
                   selectText: "选择",
                   navigateText: "切换"
+                }
+              }
+            }
+          },
+          en: {
+            translations: {
+              button: {
+                buttonText: "Search",
+                buttonAriaLabel: "Search"
+              },
+              modal: {
+                noResultsText: "No results for",
+                resetButtonTitle: "Clear search query",
+                footer: {
+                  selectText: "Select",
+                  navigateText: "Navigate"
                 }
               }
             }

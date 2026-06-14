@@ -32,7 +32,7 @@ Blender 可以直接在其 [官网](https://www.blender.org/download/) 下载，
 | 名称                                            | 是否必需 | 备注                                    |
 | ----------------------------------------------- | -------- | --------------------------------------- |
 | [Blender](#blender)                             | 必需     | 核心建模软件                            |
-| [BallanceBlenderPlugin](#ballanceblenderplugin) | 必需     | 用于支持 Ballance 制图的核心插件        |
+| [BallanceBlenderPlugin](#ballance-blender-plugin) | 必需     | 用于支持 Ballance 制图的核心插件        |
 | [制图资产库](#制图资产库)                       | 强烈建议 | 不装也能制图，但会缺少很多素材          |
 | [Simple Lattice](#其它插件推荐)                 | 否       | 推荐安装，用于制作斜坡路面              |
 | Virtools 2.5~3.5                                | 否       | 仅在脚本制图或使用 3ds Max 制图时才需要 |
