@@ -54,7 +54,7 @@ The list of mechanisms that need a Stopper is as follows:
 - Tilting board
 - Two-wing bridge / Bidirectional push board
 
-Here we use the push board as an example. First, in the position we just made, continue to add a stone ball transformer, then make a section of floor for a running start, and then add a push board that needs to be pushed by a wood ball or stone ball. Then drag a Stopper out from the asset library and align it to the floor on the other side. **Then drop the Stopper by 0.7 relative to the floor height** (type `G` `Z` `-0.7`). The final effect is shown in the figure below (the height annotations in the figure have errors; when actually mapping, just make it 0.7):
+Here we use the push board as an example. First, in the position we just made, continue to add a stone ball transformer, then make a section of floor for a running start, and then add a push board that needs to be pushed by a wood ball or stone ball. Then drag a Stopper out from the asset library and align it to the floor on the other side. **Then drop the Stopper by 0.5 relative to the floor height** (type `G` `Z` `-0.5`). The final effect is shown in the figure below (the height annotations in the figure have errors; when actually mapping, just make it 0.5):
 
 ![tutorial_module_5](../../../imgs/tutorial_module_5.png)
 
